@@ -15,6 +15,8 @@
 		163CA3681D3A166A00551101 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163CA3661D3A166A00551101 /* LaunchScreen.storyboard */; };
 		163CA3731D3A166A00551101 /* _keep______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 163CA3721D3A166A00551101 /* _keep______Tests.m */; };
 		163CA37E1D3A166A00551101 /* _keep______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 163CA37D1D3A166A00551101 /* _keep______UITests.m */; };
+		163CA38D1D3A192B00551101 /* countDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 163CA38C1D3A192B00551101 /* countDownView.m */; };
+		163CA3901D3A40D100551101 /* countDownV.m in Sources */ = {isa = PBXBuildFile; fileRef = 163CA38F1D3A40D100551101 /* countDownV.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		163CA3791D3A166A00551101 /* 仿keep中的休息场景UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿keep中的休息场景UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		163CA37D1D3A166A00551101 /* _keep______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_keep______UITests.m"; sourceTree = "<group>"; };
 		163CA37F1D3A166A00551101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		163CA38B1D3A192B00551101 /* countDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = countDownView.h; sourceTree = "<group>"; };
+		163CA38C1D3A192B00551101 /* countDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = countDownView.m; sourceTree = "<group>"; };
+		163CA38E1D3A40D100551101 /* countDownV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = countDownV.h; sourceTree = "<group>"; };
+		163CA38F1D3A40D100551101 /* countDownV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = countDownV.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,8 @@
 		163CA3571D3A166A00551101 /* 仿keep中的休息场景 */ = {
 			isa = PBXGroup;
 			children = (
+				163CA38B1D3A192B00551101 /* countDownView.h */,
+				163CA38C1D3A192B00551101 /* countDownView.m */,
 				163CA35B1D3A166A00551101 /* AppDelegate.h */,
 				163CA35C1D3A166A00551101 /* AppDelegate.m */,
 				163CA35E1D3A166A00551101 /* ViewController.h */,
@@ -110,6 +118,8 @@
 				163CA3661D3A166A00551101 /* LaunchScreen.storyboard */,
 				163CA3691D3A166A00551101 /* Info.plist */,
 				163CA3581D3A166A00551101 /* Supporting Files */,
+				163CA38E1D3A40D100551101 /* countDownV.h */,
+				163CA38F1D3A40D100551101 /* countDownV.m */,
 			);
 			path = "仿keep中的休息场景";
 			sourceTree = "<group>";
@@ -275,6 +285,8 @@
 			files = (
 				163CA3601D3A166A00551101 /* ViewController.m in Sources */,
 				163CA35D1D3A166A00551101 /* AppDelegate.m in Sources */,
+				163CA3901D3A40D100551101 /* countDownV.m in Sources */,
+				163CA38D1D3A192B00551101 /* countDownView.m in Sources */,
 				163CA35A1D3A166A00551101 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
